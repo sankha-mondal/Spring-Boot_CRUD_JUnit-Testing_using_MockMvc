@@ -23,7 +23,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.repository.Product_Repository;
 
-@WebMvcTest   //  Bcoz we can't use Postman here to test 
+@WebMvcTest   //  Bcoz we can't use Postman here to test & creates the required beans for Conroller Test
 class JUnitTestCControllerMvc {
 
 	private static final String PRODUCT_URL = "/product_info/products";
